@@ -73,7 +73,7 @@ function App() {
               <h2 className="text-lg font-semibold text-gray-700">Weight</h2>
               <GaugeCircle className="text-blue-500" size={24} />
             </div>
-            <p className="text-3xl font-bold text-gray-900">{sensorData.weight} kg</p>
+            <p className="text-3xl font-bold text-gray-900">{sensorData.weight} g</p>
           </div>
 
           {/* Humidity Card */}
